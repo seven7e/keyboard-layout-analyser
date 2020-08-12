@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/keyboard-layout-analyser/static/css/main.5f361e03.chunk.css",
-    "main.js": "/keyboard-layout-analyser/static/js/main.1e119a58.chunk.js",
-    "main.js.map": "/keyboard-layout-analyser/static/js/main.1e119a58.chunk.js.map",
+    "main.js": "/keyboard-layout-analyser/static/js/main.e261c99e.chunk.js",
+    "main.js.map": "/keyboard-layout-analyser/static/js/main.e261c99e.chunk.js.map",
     "runtime-main.js": "/keyboard-layout-analyser/static/js/runtime-main.a7ef77d1.js",
     "runtime-main.js.map": "/keyboard-layout-analyser/static/js/runtime-main.a7ef77d1.js.map",
-    "static/js/2.62376da8.chunk.js": "/keyboard-layout-analyser/static/js/2.62376da8.chunk.js",
-    "static/js/2.62376da8.chunk.js.map": "/keyboard-layout-analyser/static/js/2.62376da8.chunk.js.map",
+    "static/js/2.f5ddbae4.chunk.js": "/keyboard-layout-analyser/static/js/2.f5ddbae4.chunk.js",
+    "static/js/2.f5ddbae4.chunk.js.map": "/keyboard-layout-analyser/static/js/2.f5ddbae4.chunk.js.map",
     "index.html": "/keyboard-layout-analyser/index.html",
-    "precache-manifest.2dcb7aca7556fd637b810d930fea1c9f.js": "/keyboard-layout-analyser/precache-manifest.2dcb7aca7556fd637b810d930fea1c9f.js",
+    "precache-manifest.540afd615bc423c84f7506811cd55819.js": "/keyboard-layout-analyser/precache-manifest.540afd615bc423c84f7506811cd55819.js",
     "service-worker.js": "/keyboard-layout-analyser/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/keyboard-layout-analyser/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.62376da8.chunk.js.LICENSE.txt": "/keyboard-layout-analyser/static/js/2.62376da8.chunk.js.LICENSE.txt",
+    "static/js/2.f5ddbae4.chunk.js.LICENSE.txt": "/keyboard-layout-analyser/static/js/2.f5ddbae4.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/keyboard-layout-analyser/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a7ef77d1.js",
-    "static/js/2.62376da8.chunk.js",
+    "static/js/2.f5ddbae4.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.1e119a58.chunk.js"
+    "static/js/main.e261c99e.chunk.js"
   ]
 }
