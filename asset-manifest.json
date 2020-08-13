@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/keyboard-layout-analyser/static/css/main.74fbd43d.chunk.css",
-    "main.js": "/keyboard-layout-analyser/static/js/main.13fd90f9.chunk.js",
-    "main.js.map": "/keyboard-layout-analyser/static/js/main.13fd90f9.chunk.js.map",
+    "main.css": "/keyboard-layout-analyser/static/css/main.c373280c.chunk.css",
+    "main.js": "/keyboard-layout-analyser/static/js/main.0202a41a.chunk.js",
+    "main.js.map": "/keyboard-layout-analyser/static/js/main.0202a41a.chunk.js.map",
     "runtime-main.js": "/keyboard-layout-analyser/static/js/runtime-main.6c97d9cf.js",
     "runtime-main.js.map": "/keyboard-layout-analyser/static/js/runtime-main.6c97d9cf.js.map",
-    "static/js/2.baecf171.chunk.js": "/keyboard-layout-analyser/static/js/2.baecf171.chunk.js",
-    "static/js/2.baecf171.chunk.js.map": "/keyboard-layout-analyser/static/js/2.baecf171.chunk.js.map",
+    "static/js/2.5eb1a384.chunk.js": "/keyboard-layout-analyser/static/js/2.5eb1a384.chunk.js",
+    "static/js/2.5eb1a384.chunk.js.map": "/keyboard-layout-analyser/static/js/2.5eb1a384.chunk.js.map",
     "index.html": "/keyboard-layout-analyser/index.html",
-    "precache-manifest.7e9e6c7c40987ff013c89235717e5626.js": "/keyboard-layout-analyser/precache-manifest.7e9e6c7c40987ff013c89235717e5626.js",
+    "precache-manifest.b69a319c45ee57689e8a66160d4a70db.js": "/keyboard-layout-analyser/precache-manifest.b69a319c45ee57689e8a66160d4a70db.js",
     "service-worker.js": "/keyboard-layout-analyser/service-worker.js",
-    "static/css/main.74fbd43d.chunk.css.map": "/keyboard-layout-analyser/static/css/main.74fbd43d.chunk.css.map",
-    "static/js/2.baecf171.chunk.js.LICENSE.txt": "/keyboard-layout-analyser/static/js/2.baecf171.chunk.js.LICENSE.txt"
+    "static/css/main.c373280c.chunk.css.map": "/keyboard-layout-analyser/static/css/main.c373280c.chunk.css.map",
+    "static/js/2.5eb1a384.chunk.js.LICENSE.txt": "/keyboard-layout-analyser/static/js/2.5eb1a384.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6c97d9cf.js",
-    "static/js/2.baecf171.chunk.js",
-    "static/css/main.74fbd43d.chunk.css",
-    "static/js/main.13fd90f9.chunk.js"
+    "static/js/2.5eb1a384.chunk.js",
+    "static/css/main.c373280c.chunk.css",
+    "static/js/main.0202a41a.chunk.js"
   ]
 }
