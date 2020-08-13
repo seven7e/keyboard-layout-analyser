@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/keyboard-layout-analyser/static/css/main.5f361e03.chunk.css",
-    "main.js": "/keyboard-layout-analyser/static/js/main.784008d0.chunk.js",
-    "main.js.map": "/keyboard-layout-analyser/static/js/main.784008d0.chunk.js.map",
-    "runtime-main.js": "/keyboard-layout-analyser/static/js/runtime-main.a7ef77d1.js",
-    "runtime-main.js.map": "/keyboard-layout-analyser/static/js/runtime-main.a7ef77d1.js.map",
-    "static/js/2.f5ddbae4.chunk.js": "/keyboard-layout-analyser/static/js/2.f5ddbae4.chunk.js",
-    "static/js/2.f5ddbae4.chunk.js.map": "/keyboard-layout-analyser/static/js/2.f5ddbae4.chunk.js.map",
+    "main.css": "/keyboard-layout-analyser/static/css/main.74fbd43d.chunk.css",
+    "main.js": "/keyboard-layout-analyser/static/js/main.13fd90f9.chunk.js",
+    "main.js.map": "/keyboard-layout-analyser/static/js/main.13fd90f9.chunk.js.map",
+    "runtime-main.js": "/keyboard-layout-analyser/static/js/runtime-main.6c97d9cf.js",
+    "runtime-main.js.map": "/keyboard-layout-analyser/static/js/runtime-main.6c97d9cf.js.map",
+    "static/js/2.baecf171.chunk.js": "/keyboard-layout-analyser/static/js/2.baecf171.chunk.js",
+    "static/js/2.baecf171.chunk.js.map": "/keyboard-layout-analyser/static/js/2.baecf171.chunk.js.map",
     "index.html": "/keyboard-layout-analyser/index.html",
-    "precache-manifest.cf5a548a425e6c8afe54646be5f957f0.js": "/keyboard-layout-analyser/precache-manifest.cf5a548a425e6c8afe54646be5f957f0.js",
+    "precache-manifest.7e9e6c7c40987ff013c89235717e5626.js": "/keyboard-layout-analyser/precache-manifest.7e9e6c7c40987ff013c89235717e5626.js",
     "service-worker.js": "/keyboard-layout-analyser/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/keyboard-layout-analyser/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.f5ddbae4.chunk.js.LICENSE.txt": "/keyboard-layout-analyser/static/js/2.f5ddbae4.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/keyboard-layout-analyser/static/media/logo.5d5d9eef.svg"
+    "static/css/main.74fbd43d.chunk.css.map": "/keyboard-layout-analyser/static/css/main.74fbd43d.chunk.css.map",
+    "static/js/2.baecf171.chunk.js.LICENSE.txt": "/keyboard-layout-analyser/static/js/2.baecf171.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7ef77d1.js",
-    "static/js/2.f5ddbae4.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.784008d0.chunk.js"
+    "static/js/runtime-main.6c97d9cf.js",
+    "static/js/2.baecf171.chunk.js",
+    "static/css/main.74fbd43d.chunk.css",
+    "static/js/main.13fd90f9.chunk.js"
   ]
 }
