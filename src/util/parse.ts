@@ -12,7 +12,9 @@ const widthConfig: {[key: string]: number} = {
 const labels: {[key: string]: string} = {
   tab: 'Tab',
   caps: 'Caps Lock',
-  l_shift: 'Shift'
+  l_shift: 'Shift',
+  r_shift: 'Shift',
+  enter: 'Enter',
 }
 
 function getKeyWidth(keyName: string) {
@@ -24,8 +26,23 @@ function getKeyWidth(keyName: string) {
   return 1;
 }
 
+function getKeyLabel(keyName: string): string {
+  let label = labels[keyName];
+  if (label) {
+    return label;
+  }
+
+  return keyName.toUpperCase();
+}
+
 export function parse_row(row: string): KeyRowModel {
-  return row.split(/\s+/).map(k => ({label: k, width: getKeyWidth(k)}));
+  return row.split(/\s+/).map(k => ({
+    code: k,
+    shift: k,
+    label: getKeyLabel(k),
+    width: getKeyWidth(k),
+    effort: 1
+  }));
 }
 
 export function parse_layout(row_strs: Array<string>) {
