@@ -41,7 +41,8 @@ export function parse_row(row: string): KeyRowModel {
     shift: k,
     label: getKeyLabel(k),
     width: getKeyWidth(k),
-    effort: 1
+    effort: 1,
+    colour: '#ffffff'
   }));
 }
 

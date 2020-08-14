@@ -3,10 +3,13 @@ import KeyboardLayout from '../components/keyboard';
 import { parse_layout } from '../util/parse';
 import Layouts from '../util/predefined_layouts';
 import { KeyboardModel } from '../models/keyboard';
+import { setColourByEffort } from '../util/vis';
 
 function calcKeyboardMetrics(text: string, keyboard: KeyboardModel) {
   console.log('evaluate', text, keyboard);
 }
+
+setColourByEffort(Layouts.qwerty)
 
 function Home(props: any) {
   const onTextChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
