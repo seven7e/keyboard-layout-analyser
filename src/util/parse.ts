@@ -1,4 +1,4 @@
-import { KeyRowModel } from '../models/keyboard';
+import { KeyModel, KeyRowModel } from '../models/keyboard';
 import { table } from 'console';
 
 const widthConfig: {[key: string]: number} = {
@@ -35,7 +35,7 @@ function getKeyLabel(keyName: string): string {
   return keyName.toUpperCase();
 }
 
-export function parse_row(row: string): KeyRowModel {
+export function parseRow(row: string): KeyRowModel {
   return row.split(/\s+/).map(k => ({
     code: k,
     shift: k,
@@ -46,6 +46,17 @@ export function parse_row(row: string): KeyRowModel {
   }));
 }
 
-export function parse_layout(row_strs: Array<string>) {
-  return row_strs.map(parse_row);
+export function parseLayout(row_strs: Array<string>) {
+  return row_strs.map(parseRow);
+}
+
+export function copyKey(k: KeyModel): KeyModel {
+  let obj = {...k};
+  return obj;
+}
+
+export function changeKeyColour(k: KeyModel, colour: string): KeyModel {
+  let obj = copyKey(k);
+  obj.colour = colour;
+  return obj;
 }

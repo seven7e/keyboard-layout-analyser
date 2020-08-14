@@ -1,4 +1,4 @@
-import { parse_layout } from './parse';
+import { parseLayout } from './parse';
 import { KeyboardModel } from '../models/keyboard';
 import { get2DDefault } from './util';
 
@@ -29,7 +29,7 @@ const layouts_tmp: {[k: string]: Array<string>} = {
 var layouts: {[k: string]: KeyboardModel} = {};
 
 Object.keys(layouts_tmp).forEach((k, i) => {
-  let layout = parse_layout(layouts_tmp[k])
+  let layout = parseLayout(layouts_tmp[k])
   layout.forEach((row, i) => {
     row.forEach((key, j) => {
       key.width = get2DDefault(widths, i, j, 1);

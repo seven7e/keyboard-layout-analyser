@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 import KeyboardLayout from '../components/keyboard';
-import { parse_layout } from '../util/parse';
+import { parseLayout } from '../util/parse';
 import Layouts from '../util/predefined_layouts';
 import { KeyboardModel } from '../models/keyboard';
-import { setColourByEffort } from '../util/vis';
+import vis from '../util/vis';
+import { countChar } from '../util/util';
 
-function calcKeyboardMetrics(text: string, keyboard: KeyboardModel) {
-  console.log('evaluate', text, keyboard);
-}
-
-setColourByEffort(Layouts.qwerty)
+let layout = vis.changeColourByEffort(Layouts.qwerty)
 
 function Home(props: any) {
   const onTextChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
@@ -18,6 +15,20 @@ function Home(props: any) {
   }
 
   const [text, setText] = useState('');
+  const [keyboard, setKeyboard] = useState(layout);
+
+  function calcKeyboardMetrics(text: string, keyboard: KeyboardModel) {
+    // console.log('evaluate', text, keyboard);
+    if (text.length <= 0) {
+      return;
+    }
+    // let cnt = {q: 10, w: 20};
+    let cnt = countChar(text.toLowerCase());
+    // console.log('cnt', cnt);
+    let new_kb = vis.changeColourByFreq(keyboard, cnt);
+    // console.log('new keyboard', new_kb);
+    setKeyboard(new_kb);
+  }
 
   return (
     <div>
@@ -25,11 +36,11 @@ function Home(props: any) {
       {/* <div style={{display: 'flex', justifyContent: 'center', border:'2px solid'}}> */}
       <div style={{textAlign: 'center'}}>
         <div style={{width: '80%', display: 'inline-block'}}>
-          <KeyboardLayout rows={Layouts.qwerty}></KeyboardLayout>
+          <KeyboardLayout rows={keyboard}></KeyboardLayout>
         </div>
       </div>
       <div style={{marginTop: '20px'}}>
-        <textarea defaultValue="Enter text here..." 
+        <textarea placeholder="Enter text here..." 
           onChange={(e) => onTextChange(e)}
           style={{width: '60%', height: '200px'}}>
         </textarea>
@@ -39,7 +50,7 @@ function Home(props: any) {
                   height: '50px',
                   width: '80px',
                   display: 'inline-block'}}
-          onClick={() => calcKeyboardMetrics(text, Layouts.qwerty)}
+          onClick={() => calcKeyboardMetrics(text, keyboard)}
           >
           Calculate
         </button>

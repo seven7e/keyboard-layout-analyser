@@ -12,3 +12,21 @@ export function for2d<T>(arr2d: T[][], func: ((e: T, i: number, j: number) => vo
     })
   })
 }
+
+export function map2d<T, S>(arr2d: T[][], func: ((e: T, i: number, j: number) => S)): S[][] {
+  return arr2d.map((a, i) => (a.map((e, j) => (func(e, i, j)))));
+}
+
+export function countChar(s: string) {
+  let cnt: {[k: string]: number} = {};
+
+  for (const c of s) {
+    if (c in cnt) {
+      cnt[c]++;
+    } else {
+      cnt[c] = 1;
+    }
+  }
+
+  return cnt;
+}
